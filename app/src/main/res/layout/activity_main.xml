@@ -5,6 +5,7 @@ Este archivo define cómo se ve la pantalla principal de nuestra app.
 Utiliza ViewBinding para conectar con Kotlin de manera segura.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -17,8 +18,7 @@ Utiliza ViewBinding para conectar con Kotlin de manera segura.
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         app:cardElevation="4dp"
-        app:cardCornerRadius="12dp"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
+        app:cardCornerRadius="12dp">
 
         <TextView
             android:layout_width="match_parent"
